@@ -1,0 +1,363 @@
+{% load static %}
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Галерея ремонта автомобилей, Наша галерея ремонта автомобилей, Наши области экспертизы">
+    <meta name="description" content="">
+    <title>Главная</title> 
+    <link rel="stylesheet" href="{% static 'css/nicepage.css' %}" media="screen">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" media="screen">
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/nicepage.js' %}"></script>
+    <meta name="generator" content="Nicepage 7.7.3, nicepage.com">
+    <meta name="referrer" content="origin">
+    
+    
+    
+    
+    
+    
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/assets_2Ftask_01jvj8ff18ehcaxj53p4frmhdb_2F1747590939_img_0.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Главная">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="Главная.html" data-home-page-title="Главная" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="ru"><header class="u-box-shadow u-clearfix u-gradient u-header u-header" id="header"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <a href="/" data-page-id="510806967" class="u-image u-logo u-image-1" data-image-width="705" data-image-height="470" title="Главная" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0">
+          <img src="{% static 'img/logo.png' %}" class="u-image u-image-default u-image-1" alt="...">
+        </a>
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+          <div class="menu-collapse u-custom-font u-font-oswald" style="font-size: 1.875rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-shadow u-custom-text-shadow-blur u-custom-text-shadow-color u-custom-text-shadow-transparency u-custom-text-shadow-y u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-hamburger-link-1" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-font-oswald u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base u-text-palette-5-base" href="{% url 'about_us' %}" style="padding: 10px 20px; text-shadow: -2px 0px 5px rgba(0,0,0,1);">О нас</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base u-text-palette-5-base" href="{% url 'contacts' %}" style="padding: 10px 20px; text-shadow: -2px 0px 5px rgba(0,0,0,1);">Контакты</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-2-base u-text-palette-5-base" href="/" style="padding: 10px 20px; text-shadow: -2px 0px 5px rgba(0,0,0,1);">Главная</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'about_us' %}">О нас</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'contacts' %}">Контакты</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/">Главная</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-container-align-center-xs u-grey-75 u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-section-1" id="carousel_8fae">
+      <div class="u-expanded-width u-grey-75 u-shape u-shape-rectangle u-shape-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500"></div>
+      <img src="{% static 'img/first_foto.jpg' %}" class="u-image u-image-default u-image-1" alt="...">
+      <div class="custom-expanded u-container-align-left u-container-style u-group u-radius u-shape-round u-white u-group-1" data-animation-name="flipIn" data-animation-duration="1500" data-animation-delay="800" data-animation-direction="X">
+        <div class="u-container-layout u-valign-middle u-container-layout-1">
+          <h2 class="u-align-left u-custom-font u-font-oswald u-text u-text-1"> Предоставляем услуги высшего качества<br style="">
+          </h2>
+          <p class="u-align-left u-text u-text-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""> Все наши работники - квалифицированные специалисты, имеющие огромный опыт в области ремонта и обслуживания как иномарок, так и отечественных автомобилей.</p>
+          <a href="{% url 'about_us' %}" data-page-id="73269269" class="u-active-palette-5-dark-3 u-align-left u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-dark-3 u-palette-1-base u-radius u-text-active-white u-text-hover-white u-btn-1" title="О нас">читать далее</a>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-border-7 u-border-grey-80 u-border-no-bottom u-border-no-left u-border-no-right u-clearfix u-container-align-center u-grey-75 u-section-2" id="carousel_4254">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-align-center u-custom-font u-font-oswald u-text u-text-default u-text-1" data-animation-name="flipIn" data-animation-duration="1500" data-animation-delay="500" data-animation-direction="X"> Наша сфера деятельности</h2>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-align-center u-container-align-center-xs u-container-style u-image u-image-default u-list-item u-repeater-item u-shape-round u-image-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500" data-image-width="1380" data-image-height="918">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
+                <div class="u-black u-container-align-center u-container-style u-expanded-width u-group u-opacity u-opacity-65 u-group-1">
+                  <div class="u-container-layout u-valign-middle u-container-layout-2">
+                    <img src="{% static 'img/obslu.jpg' %}" alt="">
+                    <h6 class="u-align-center u-hover-feature u-text u-text-2">Техобслуживание</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-align-center u-container-align-center-xs u-container-style u-image u-image-default u-list-item u-repeater-item u-shape-round u-image-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500" data-image-width="1380" data-image-height="920">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
+                <div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-65 u-group-2">
+                  <div class="u-container-layout u-valign-middle u-container-layout-4">
+                    <img src="{% static 'img/sxod.jpg' %}" alt="">
+                    <h6 class="u-align-center u-hover-feature u-text u-text-3">Схождение-Развал</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-align-center u-container-align-center-xs u-container-style u-image u-image-default u-list-item u-repeater-item u-shape-round u-image-3" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500" data-image-width="1380" data-image-height="920">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
+                <div class="u-black u-container-align-center u-container-style u-expanded-width u-group u-opacity u-opacity-65 u-group-3">
+                  <div class="u-container-layout u-valign-middle u-container-layout-6">  
+                  <img src="{% static 'img/tormoza.jpg' %}" alt="">
+                    <h6 class="u-align-center u-hover-feature u-text u-text-4">Обслуживание тормозов</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-align-center u-container-align-center-xs u-container-style u-image u-image-default u-list-item u-repeater-item u-shape-round u-image-4" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750" data-image-width="1380" data-image-height="920">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-7">
+                <div class="u-black u-container-align-center u-container-style u-expanded-width u-group u-opacity u-opacity-65 u-group-4">
+                  <div class="u-container-layout u-valign-middle u-container-layout-8">
+                    <img src="{% static 'img/podveska.jpg' %}" alt="">
+                    <h6 class="u-align-center u-hover-feature u-text u-text-5">Ремонт подвески</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-align-center u-container-align-center-xs u-container-style u-image u-image-default u-list-item u-repeater-item u-shape-round u-image-5" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750" data-image-width="1380" data-image-height="920">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-9">
+                <div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-65 u-group-5">
+                  <div class="u-container-layout u-valign-middle u-container-layout-10">
+                    <img src="{% static 'img/kuzov.jpg' %}" alt="">
+                    <h6 class="u-align-center u-hover-feature u-text u-text-6">Кузовные работы </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-align-center u-container-align-center-xs u-container-style u-image u-image-default u-list-item u-repeater-item u-shape-round u-image-6" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750" data-image-width="1380" data-image-height="920">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-11">
+                <div class="u-black u-container-align-center u-container-style u-expanded-width u-group u-opacity u-opacity-65 u-group-6">
+                  <div class="u-container-layout u-valign-middle u-container-layout-12">
+                    <img src="{% static 'img/motor.jpg' %}" alt="">
+                    <h6 class="u-align-center u-hover-feature u-text u-text-7">Ремонт двигателя</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </section>
+    <section class="u-border-7 u-border-grey-80 u-border-no-bottom u-border-no-left u-border-no-right u-clearfix u-grey-75 u-section-3" id="sec-1468">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-20 u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-col">
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-align-left u-container-style u-layout-cell u-size-30 u-white u-layout-cell-1">
+                    <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-1">
+                      <p class="u-align-left u-text u-text-1"> Обслуживание на высоте! Всё объяснили, починили быстро и без лишних трат. Теперь только к ним.</p>
+                      <img src="{% static 'img/765-default-avatar.png' %}" alt="" width="100" height= "100">
+                      <h6 class="u-align-left u-text u-text-default u-text-2">Михаил Белкин</h6>
+                      <h5 class="u-align-left u-text u-text-3">21.02.2025</h5>
+                    </div>
+                  </div>
+                  <div class="u-container-align-left u-container-style u-layout-cell u-size-30 u-white u-layout-cell-2">
+                    <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-2">
+                      <p class="u-text u-text-4"> Заменили амортизаторы и втулки стабилизатора — теперь ни звука, ни крена. Всё чётко, по делу и без навязываний.</p>
+                      <img src="{% static 'img/765-default-avatar.png' %}" alt="" width="100" height= "100">
+                      <h6 class="u-text u-text-default u-text-5">Сергей Маслов</h6>
+                      <h5 class="u-text u-text-6">6.03.2025</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-align-left u-container-style u-layout-cell u-size-30 u-white u-layout-cell-3">
+                    <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-valign-top-xl u-container-layout-3">
+                      <p class="u-align-left u-text u-text-7"> Уже не первый раз обращаюсь — всё стабильно чётко. Надёжный сервис, приятные сотрудники.</p>
+                      <img src="{% static 'img/765-default-avatar.png' %}" alt="" width="100" height= "100">
+                      <h6 class="u-align-left u-text u-text-default u-text-8">Владислав Урбан </h6>
+                      <h5 class="u-align-left u-text u-text-9">16.01.2025</h5>
+                    </div>
+                  </div>
+                  <div class="u-container-align-left u-container-style u-layout-cell u-size-30 u-white u-layout-cell-4">
+                    <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-valign-top-xl u-container-layout-4">
+                      <p class="u-align-left u-text u-text-10"> Красили крыло и выправляли вмятину — результат на 10 из 10. Цвет подобрали идеально, взяли недорого. Рекомендую!</p>
+                      <img src="{% static 'img/765-default-avatar.png' %}" alt="" width="100" height= "100">
+                      <h6 class="u-align-left u-text u-text-default u-text-11">Кирилл Зырянов</h6>
+                      <h5 class="u-align-left u-text u-text-12">01.02.2025</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-border-7 u-border-grey-80 u-border-no-bottom u-border-no-left u-border-no-right u-clearfix u-container-align-center u-grey-75 u-section-4" id="sec-72e3">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <h2 class="u-custom-font u-font-oswald u-text u-text-1">Часто задаваемые вопросы</h2>
+        <div class="u-accordion u-expanded-width u-faq u-spacing-20 u-accordion-1">
+          <div class="u-accordion-item">
+            <a class="active u-accordion-link u-active-grey-5 u-border-1 u-border-active-palette-5-dark-2 u-border-hover-palette-5-dark-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-2 u-button-style u-grey-5 u-text-body-color u-accordion-link-1" id="link-accordion-6327" aria-controls="accordion-6327" aria-selected="true"><span class="u-accordion-link-text">Почему я должен обратиться именно к вам? </span><span class="u-accordion-link-icon u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-2c6d"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-2c6d" style=""><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
+	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
+            </a>
+            <div class="u-accordion-active u-accordion-pane u-container-style u-accordion-pane-1" id="accordion-6327" aria-labelledby="link-accordion-6327" aria-expanded="true">
+              <div class="u-container-layout u-container-layout-1">
+                <div class="fr-view u-clearfix u-rich-text u-text">
+                  <p>Потому что мы ценим ваше время, деньги и доверие. В нашем автосервисе работают опытные мастера, мы используем качественные запчасти, даём честные сроки и цены без «подводных камней». Мы не просто чиним машины — мы заботимся о вашем спокойствии на дороге. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-accordion-item">
+            <a class="u-accordion-link u-active-grey-5 u-border-1 u-border-active-palette-5-dark-2 u-border-hover-palette-5-dark-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-2 u-button-style u-grey-5 u-text-body-color u-accordion-link-2" id="link-accordion-4aab" aria-controls="accordion-4aab" aria-selected="false"><span class="u-accordion-link-text"> Можете ли вы эвакуировать машину, если она не заводится?</span><span class="u-accordion-link-icon u-icon u-icon-circle u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-937a"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-937a" style=""><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
+	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
+            </a>
+            <div class="u-accordion-pane u-container-style u-accordion-pane-2" id="accordion-4aab" aria-labelledby="link-accordion-4aab" aria-expanded="true">
+              <div class="u-container-layout u-container-layout-2">
+                <div class="fr-view u-clearfix u-rich-text u-text">
+                  <p>Да, у нас есть услуга эвакуации. Просто позвоните, и мы организуем перевозку. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-accordion-item">
+            <a class="u-accordion-link u-active-grey-5 u-border-1 u-border-active-palette-5-dark-2 u-border-hover-palette-5-dark-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-2 u-button-style u-grey-5 u-text-body-color u-accordion-link-3" id="link-accordion-eb1f" aria-controls="accordion-eb1f" aria-selected="false"><span class="u-accordion-link-text">Какую вы даёте гарантию на выполненный ремонт?</span><span class="u-accordion-link-icon u-icon u-icon-circle u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-4086"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-4086" style=""><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
+	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
+            </a>
+            <div class="u-accordion-pane u-container-style u-accordion-pane-3" id="accordion-eb1f" aria-labelledby="link-accordion-eb1f" aria-expanded="true">
+              <div class="u-container-layout u-container-layout-3">
+                <div class="fr-view u-clearfix u-rich-text u-text">
+                  <p>Гарантия на работы и запчасти зависит от их вида, но в среднем составляет от 30 дней до 12 месяцев. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-accordion-item u-expanded-width">
+            <a class="u-accordion-link u-active-grey-5 u-border-1 u-border-active-palette-5-dark-2 u-border-hover-palette-5-dark-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-5-dark-2 u-button-style u-grey-5 u-text-body-color u-accordion-link-4" id="link-accordion-eb1f" aria-controls="accordion-eb1f" aria-selected="false"><span class="u-accordion-link-text"> Сколько времени занимает ремонт?</span><span class="u-accordion-link-icon u-icon u-icon-circle u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-df61"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-df61" style=""><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
+	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
+            </a>
+            <div class="u-accordion-pane u-container-style u-accordion-pane-4" id="accordion-eb1f" aria-labelledby="link-accordion-eb1f" aria-expanded="true">
+              <div class="u-container-layout u-container-layout-4">
+                <div class="fr-view u-clearfix u-rich-text u-text">
+                  <p>Всё зависит от сложности работ. Например, замена масла займет около 30 минут, а капитальный ремонт двигателя — несколько дней. Точные сроки озвучим после диагностики. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-border-7 u-border-grey-80 u-border-no-bottom u-border-no-left u-border-no-right u-clearfix u-container-align-center u-grey-75 u-section-5" id="sec-dfcd">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-22 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-26-lg u-size-26-xl u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-1" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <h2 class="u-align-center-md u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-xl u-custom-font u-font-oswald u-text u-text-1">Свяжитесь с н<span style="font-size: 3.75rem;"><span style="font-size: 4.5rem;"></span></span>ами
+                  </h2>
+                  <p class="u-align-center-md u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-xl u-text u-text-2">Если у вас возникли вопросы, или же вы хотите обратиться к нам в сервис, пишите на нашу почту и мы с радостью вам ответим!</p>
+
+                  <p class="u-align-center-md u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-xl u-text u-text-2"onclick="copyEmail()" style="cursor: pointer;" title="Кликните, чтобы скопировать"><u id="email">paynspray.nvrsk@hotmail.com</u></p>
+                </div>
+              </div>
+              <div class="u-align-center u-container-align-center u-container-style u-layout-cell u-shape-rectangle u-size-34-lg u-size-34-xl u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+                <div class="u-container-layout u-valign-top u-container-layout-2">
+                    <div class="u-expanded-width u-form u-form-1">
+  <div class="u-expanded-width u-form u-form-1">
+  <form method="post" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;">
+    {% csrf_token %}
+    {{ form.non_field_errors }}
+
+    <div class="u-form-group u-form-name">
+      {{ form.name.label_tag }}
+      {{ form.name }}
+    </div>
+
+    <div class="u-form-email u-form-group">
+      {{ form.email.label_tag }}
+      {{ form.email }}
+    </div>
+
+    <div class="u-form-group u-form-message">
+      {{ form.message.label_tag }}
+      {{ form.message }}
+    </div>
+
+    <div class="u-form-agree u-form-group">
+      {{ form.agree }} {{ form.agree.label_tag }}
+    </div>
+
+    <div class="u-align-left u-form-group u-form-submit">
+      <button type="submit" class="u-active-palette-1-light-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">
+        Отправить
+      </button>
+    </div>
+  </form>
+</div>
+</div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer" id="footer"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">2025. Все права защищены.<br>
+        </p>
+      </div></footer>
+  <script>
+function copyEmail() {
+    const email = document.getElementById("email").textContent;
+    navigator.clipboard.writeText(email).then(function() {
+        alert("Email скопирован в буфер обмена!");
+    }).catch(function(err) {
+        console.error("Ошибка копирования: ", err);
+    });
+}
+</script>
+</body></html>
